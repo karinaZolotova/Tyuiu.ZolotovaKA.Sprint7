@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
             panelMenu_ZKA = new Panel();
             TabBarNavigation_ZKA = new TabControl();
             tabPageFile_ZKA = new TabPage();
@@ -125,6 +125,7 @@
             groupBoxFile_ZKA.Controls.Add(labelImport_ZKA);
             groupBoxFile_ZKA.Controls.Add(buttonImport_ZKA);
             groupBoxFile_ZKA.Dock = DockStyle.Fill;
+            groupBoxFile_ZKA.FlatStyle = FlatStyle.Popup;
             groupBoxFile_ZKA.Location = new Point(3, 3);
             groupBoxFile_ZKA.Name = "groupBoxFile_ZKA";
             groupBoxFile_ZKA.Size = new Size(870, 122);
@@ -135,10 +136,11 @@
             // buttonExport_ZKA
             // 
             buttonExport_ZKA.BackColor = Color.White;
-            buttonExport_ZKA.BackgroundImageLayout = ImageLayout.None;
+            buttonExport_ZKA.BackgroundImage = Properties.Resources.arrow_up_from_square_8540382;
+            buttonExport_ZKA.BackgroundImageLayout = ImageLayout.Zoom;
             buttonExport_ZKA.Cursor = Cursors.Hand;
             buttonExport_ZKA.Enabled = false;
-            buttonExport_ZKA.FlatStyle = FlatStyle.Popup;
+            buttonExport_ZKA.FlatStyle = FlatStyle.Flat;
             buttonExport_ZKA.Location = new Point(76, 22);
             buttonExport_ZKA.Name = "buttonExport_ZKA";
             buttonExport_ZKA.Size = new Size(64, 64);
@@ -169,7 +171,8 @@
             // buttonImport_ZKA
             // 
             buttonImport_ZKA.BackColor = Color.White;
-            buttonImport_ZKA.BackgroundImageLayout = ImageLayout.None;
+            buttonImport_ZKA.BackgroundImage = Properties.Resources.arrow_down_square_9252739;
+            buttonImport_ZKA.BackgroundImageLayout = ImageLayout.Zoom;
             buttonImport_ZKA.Cursor = Cursors.Hand;
             buttonImport_ZKA.FlatStyle = FlatStyle.Popup;
             buttonImport_ZKA.Location = new Point(6, 22);
@@ -210,6 +213,8 @@
             // buttonSearch_ZKA
             // 
             buttonSearch_ZKA.BackColor = Color.White;
+            buttonSearch_ZKA.BackgroundImage = Properties.Resources.search1;
+            buttonSearch_ZKA.BackgroundImageLayout = ImageLayout.Zoom;
             buttonSearch_ZKA.Cursor = Cursors.Hand;
             buttonSearch_ZKA.Enabled = false;
             buttonSearch_ZKA.FlatStyle = FlatStyle.Popup;
@@ -272,7 +277,8 @@
             // buttonRemoveRow_ZKA
             // 
             buttonRemoveRow_ZKA.BackColor = Color.White;
-            buttonRemoveRow_ZKA.BackgroundImageLayout = ImageLayout.None;
+            buttonRemoveRow_ZKA.BackgroundImage = Properties.Resources.minus1;
+            buttonRemoveRow_ZKA.BackgroundImageLayout = ImageLayout.Zoom;
             buttonRemoveRow_ZKA.Cursor = Cursors.Hand;
             buttonRemoveRow_ZKA.Enabled = false;
             buttonRemoveRow_ZKA.FlatStyle = FlatStyle.Popup;
@@ -288,7 +294,8 @@
             // buttonAddRow_ZKA
             // 
             buttonAddRow_ZKA.BackColor = Color.White;
-            buttonAddRow_ZKA.BackgroundImageLayout = ImageLayout.None;
+            buttonAddRow_ZKA.BackgroundImage = Properties.Resources.plus;
+            buttonAddRow_ZKA.BackgroundImageLayout = ImageLayout.Zoom;
             buttonAddRow_ZKA.Cursor = Cursors.Hand;
             buttonAddRow_ZKA.Enabled = false;
             buttonAddRow_ZKA.FlatStyle = FlatStyle.Popup;
@@ -329,8 +336,9 @@
             // buttonGuide_ZKA
             // 
             buttonGuide_ZKA.BackColor = Color.White;
-            buttonGuide_ZKA.BackgroundImageLayout = ImageLayout.None;
-            buttonGuide_ZKA.Cursor = Cursors.Hand;
+            buttonGuide_ZKA.BackgroundImage = Properties.Resources.guide1;
+            buttonGuide_ZKA.BackgroundImageLayout = ImageLayout.Zoom;
+            buttonGuide_ZKA.Cursor = Cursors.Help;
             buttonGuide_ZKA.FlatStyle = FlatStyle.Popup;
             buttonGuide_ZKA.Location = new Point(76, 22);
             buttonGuide_ZKA.Name = "buttonGuide_ZKA";
@@ -362,7 +370,8 @@
             // buttonВeveloper_ZKA
             // 
             buttonВeveloper_ZKA.BackColor = Color.White;
-            buttonВeveloper_ZKA.BackgroundImageLayout = ImageLayout.None;
+            buttonВeveloper_ZKA.BackgroundImage = Properties.Resources.about;
+            buttonВeveloper_ZKA.BackgroundImageLayout = ImageLayout.Zoom;
             buttonВeveloper_ZKA.Cursor = Cursors.Hand;
             buttonВeveloper_ZKA.FlatStyle = FlatStyle.Popup;
             buttonВeveloper_ZKA.Location = new Point(6, 22);
@@ -391,14 +400,14 @@
             dataGridViewMainGrid_ZKA.BackgroundColor = Color.White;
             dataGridViewMainGrid_ZKA.BorderStyle = BorderStyle.None;
             dataGridViewMainGrid_ZKA.CellBorderStyle = DataGridViewCellBorderStyle.Raised;
-            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = SystemColors.Control;
-            dataGridViewCellStyle1.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle1.ForeColor = SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
-            dataGridViewMainGrid_ZKA.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.BackColor = SystemColors.Control;
+            dataGridViewCellStyle3.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle3.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle3.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.True;
+            dataGridViewMainGrid_ZKA.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
             dataGridViewMainGrid_ZKA.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewMainGrid_ZKA.Columns.AddRange(new DataGridViewColumn[] { ColumnID_ZKA, ColumnName_ZKA, ColumnNumber_ZKA, ColumnSubject_ZKA, ColumnAge_ZKA, ColumnAudienceNumber_ZKA, ColumnExperience_ZKA, ColumnHoursPerWeek_ZKA });
             dataGridViewMainGrid_ZKA.Dock = DockStyle.Fill;
